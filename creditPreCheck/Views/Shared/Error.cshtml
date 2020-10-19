@@ -1,0 +1,14 @@
+﻿@{
+    Exception ex = ViewData["HandleException"] as Exception;
+}
+
+<div id="error">
+    <div class="error">
+        <div class="error-404">
+            <h1>Oops!</h1>
+            <h2>Sorry, something went wrong</h2>
+        </div>
+        @* <div>@ex.Message</div> *@
+        <a href="/Home">Go To Homepage</a>
+    </div>
+</div>

@@ -1,0 +1,19 @@
+﻿@model creditPreCheck.Models.User
+
+<div class="jumbotron">
+    @if (!Model.Eligibility.isEligible)
+    {
+        await Html.RenderPartialAsync("NoCard.cshtml", new ViewDataDictionary(this.ViewData) {
+            { "fullName", @Model.FullName }
+        });
+    }
+    else
+    {
+        await Html.RenderPartialAsync("Card.cshtml", new ViewDataDictionary(this.ViewData) {
+            { "fullName", @Model.FullName },
+            { "card", @Model.Eligibility.Card.Name },
+            { "apr", @Model.Eligibility.Card.APR },
+            { "message", @Model.Eligibility.Card.Message }
+        });
+    }
+</div>

@@ -1,0 +1,15 @@
+﻿<div class="container">
+    <h1 class="display-4">Congratulations, @ViewData["fullName"] !</h1>
+    <div class="row">
+        <div class="col-md-2 col-sm-12">
+            <img src="~/images/credit-card.png" alt="Card" height="100">
+        </div>
+        <div class="col-md-8 col-sm-12">
+            <div>
+                <div>You are eligible for <b>@ViewData["card"]</b></div>
+                <div>@ViewData["message"]</div>
+                <div>APR: @ViewData["apr"]</div>
+            </div>
+        </div>
+    </div>
+</div>

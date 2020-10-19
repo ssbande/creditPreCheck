@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "creditPreCheck", "creditPreCheck\creditPreCheck.csproj", "{5DAC98AF-E1BA-426A-A627-FB3F9B150336}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "creditPreCheck.Tests", "creditPreCheck.Tests\creditPreCheck.Tests.csproj", "{308D06DB-0B66-4D0F-B327-9AABD226DAC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DAC98AF-E1BA-426A-A627-FB3F9B150336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DAC98AF-E1BA-426A-A627-FB3F9B150336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DAC98AF-E1BA-426A-A627-FB3F9B150336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DAC98AF-E1BA-426A-A627-FB3F9B150336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{308D06DB-0B66-4D0F-B327-9AABD226DAC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{308D06DB-0B66-4D0F-B327-9AABD226DAC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{308D06DB-0B66-4D0F-B327-9AABD226DAC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{308D06DB-0B66-4D0F-B327-9AABD226DAC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

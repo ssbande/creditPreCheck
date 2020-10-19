@@ -1,0 +1,133 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Commissioner:wght@100;200;300;400;500;600&display=swap');
+
+/* font-family: 'Alegreya', serif;
+font-family: 'Commissioner', sans-serif; */
+
+body {
+    font-family: 'Commissioner', sans-serif;
+}
+
+.smallFont {
+    font-size: 0.7rem;
+}
+
+.pageCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+}
+
+.itemCenterColumns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.shadowCard {
+    box-shadow: 4px 4px 4px #999;
+}
+
+#error {
+    position: relative;
+    height: 75vh;
+}
+
+    #error .error {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+.error {
+    max-width: 520px;
+    width: 100%;
+    line-height: 1.4;
+    text-align: center;
+}
+
+    .error .error-404 {
+        position: relative;
+        height: 200px;
+        margin: 0px auto 20px;
+        z-index: -1;
+    }
+
+        .error .error-404 h1 {
+            font-size: 236px;
+            font-weight: 200;
+            margin: 0px;
+            color: #17a2b8;
+            text-transform: uppercase;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            text-shadow: 4px 4px 4px #333;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+
+        .error .error-404 h2 {
+            font-size: 28px;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: #211b19;
+            background: #fff;
+            padding: 10px 5px;
+            margin: auto;
+            display: inline-block;
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            right: 0;
+        }
+
+    .error a {
+        font-family: 'Montserrat', sans-serif;
+        display: inline-block;
+        font-weight: 700;
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 13px 23px;
+        background: #17a2b8;
+        font-size: 18px;
+        -webkit-transition: 0.2s all;
+        transition: 0.2s all;
+    }
+
+        .error a:hover {
+            color: #17a2b8;
+            background: #211b19;
+        }
+
+@media only screen and (max-width: 767px) {
+    .error .error-404 h1 {
+        font-size: 148px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .error .error-404 {
+        height: 148px;
+        margin: 0px auto 10px;
+    }
+
+        .error .error-404 h1 {
+            font-size: 86px;
+        }
+
+        .error .error-404 h2 {
+            font-size: 16px;
+        }
+
+    .error a {
+        padding: 7px 15px;
+        font-size: 14px;
+    }
+}
